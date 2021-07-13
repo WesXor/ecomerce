@@ -7,7 +7,6 @@ use \Hcode\DB\Sql;
 use \Hcode\Page;
 
 $app = new Slim();
-
 $app->config('debug', true);
 
 $app->get('/', function() {
